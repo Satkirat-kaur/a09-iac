@@ -14,4 +14,4 @@ provider "azurerm" {
 resource "azurerm_resource_group" "example" {
   name     = "rg-cst8918-lab"
   location = "canadacentral"
-
+}
