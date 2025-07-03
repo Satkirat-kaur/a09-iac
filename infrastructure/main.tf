@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     azurerm = {
-      source = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm"
       version = "~> 3.0"
     }
   }
@@ -10,6 +10,8 @@ terraform {
 provider "azurerm" {
   features {}
 }
+
+
 
 resource "azurerm_resource_group" "example" {
   name     = "rg-cst8918-lab"
