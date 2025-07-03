@@ -15,3 +15,5 @@ resource "azurerm_resource_group" "example" {
   name     = "rg-cst8918-lab"
   location = "canadacentral"
 }
+
+# This is a test for GitHub Actions
